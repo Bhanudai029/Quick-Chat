@@ -25,8 +25,12 @@ android {
             properties.load(project.rootProject.file('local.properties').newDataInputStream())
         }
 
-        buildConfigField "String", "SUPABASE_URL", "\"${properties.getProperty('SUPABASE_URL')}\""
-        buildConfigField "String", "SUPABASE_KEY", "\"${properties.getProperty('SUPABASE_KEY')}\""
+        // Provide fallback empty strings if keys are not set
+        def supabaseUrl = properties.getProperty('SUPABASE_URL') ?: ''
+        def supabaseKey = properties.getProperty('SUPABASE_KEY') ?: ''
+
+        buildConfigField "String", "SUPABASE_URL", "\"${supabaseUrl}\""
+        buildConfigField "String", "SUPABASE_KEY", "\"${supabaseKey}\""
     }
 
     buildTypes {
@@ -44,6 +48,7 @@ android {
     }
     buildFeatures {
         viewBinding true
+        buildConfig true
     }
 }
 
