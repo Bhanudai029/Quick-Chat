@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Quick Chat</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_chat">Chat</string>
+    <string name="msg_hint">Type a message...</string>
+    <string name="save">Save</string>
+    <string name="name_hint">Enter your name</string>
+</resources>

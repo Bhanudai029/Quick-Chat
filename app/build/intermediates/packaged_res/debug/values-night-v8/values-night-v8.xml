@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="chat_background">#121212</color>
+    <color name="icon_tint">#FFFFFF</color>
+    <color name="input_background">#1E1E1E</color>
+    <color name="input_hint_color">#80FFFFFF</color>
+    <color name="input_text_color">#FFFFFF</color>
+</resources>

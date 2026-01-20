@@ -1,0 +1,197 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.chattingapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\baral\OneDrive\Desktop\android studio\Chatting App\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\baral\OneDrive\Desktop\android studio\Chatting App\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\baral\OneDrive\Desktop\android studio\Chatting App\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\baral\OneDrive\Desktop\android studio\Chatting App\app\src\main\AndroidManifest.xml:6:22-76
+13
+14    <!-- Audio recording permissions -->
+15    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+15-->C:\Users\baral\OneDrive\Desktop\android studio\Chatting App\app\src\main\AndroidManifest.xml:9:5-71
+15-->C:\Users\baral\OneDrive\Desktop\android studio\Chatting App\app\src\main\AndroidManifest.xml:9:22-68
+16    <uses-permission
+16-->C:\Users\baral\OneDrive\Desktop\android studio\Chatting App\app\src\main\AndroidManifest.xml:10:5-107
+17        android:name="android.permission.READ_EXTERNAL_STORAGE"
+17-->C:\Users\baral\OneDrive\Desktop\android studio\Chatting App\app\src\main\AndroidManifest.xml:10:22-77
+18        android:maxSdkVersion="32" />
+18-->C:\Users\baral\OneDrive\Desktop\android studio\Chatting App\app\src\main\AndroidManifest.xml:10:78-104
+19    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+19-->C:\Users\baral\OneDrive\Desktop\android studio\Chatting App\app\src\main\AndroidManifest.xml:11:5-76
+19-->C:\Users\baral\OneDrive\Desktop\android studio\Chatting App\app\src\main\AndroidManifest.xml:11:22-73
+20    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+20-->C:\Users\baral\OneDrive\Desktop\android studio\Chatting App\app\src\main\AndroidManifest.xml:12:5-75
+20-->C:\Users\baral\OneDrive\Desktop\android studio\Chatting App\app\src\main\AndroidManifest.xml:12:22-72
+21
+22    <permission
+22-->[androidx.core:core:1.9.0] C:\Users\baral\.gradle\caches\transforms-4\ec02ad5835fa8954e031affa70c4d209\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+23        android:name="com.example.chattingapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+23-->[androidx.core:core:1.9.0] C:\Users\baral\.gradle\caches\transforms-4\ec02ad5835fa8954e031affa70c4d209\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+24        android:protectionLevel="signature" />
+24-->[androidx.core:core:1.9.0] C:\Users\baral\.gradle\caches\transforms-4\ec02ad5835fa8954e031affa70c4d209\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+25
+26    <uses-permission android:name="com.example.chattingapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+26-->[androidx.core:core:1.9.0] C:\Users\baral\.gradle\caches\transforms-4\ec02ad5835fa8954e031affa70c4d209\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+26-->[androidx.core:core:1.9.0] C:\Users\baral\.gradle\caches\transforms-4\ec02ad5835fa8954e031affa70c4d209\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+27
+28    <application
+28-->C:\Users\baral\OneDrive\Desktop\android studio\Chatting App\app\src\main\AndroidManifest.xml:14:5-40:19
+29        android:name="com.example.chattingapp.MyApplication"
+29-->C:\Users\baral\OneDrive\Desktop\android studio\Chatting App\app\src\main\AndroidManifest.xml:15:9-38
+30        android:allowBackup="true"
+30-->C:\Users\baral\OneDrive\Desktop\android studio\Chatting App\app\src\main\AndroidManifest.xml:16:9-35
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.9.0] C:\Users\baral\.gradle\caches\transforms-4\ec02ad5835fa8954e031affa70c4d209\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+32        android:dataExtractionRules="@xml/data_extraction_rules"
+32-->C:\Users\baral\OneDrive\Desktop\android studio\Chatting App\app\src\main\AndroidManifest.xml:17:9-65
+33        android:debuggable="true"
+34        android:extractNativeLibs="false"
+35        android:fullBackupContent="@xml/backup_rules"
+35-->C:\Users\baral\OneDrive\Desktop\android studio\Chatting App\app\src\main\AndroidManifest.xml:18:9-54
+36        android:icon="@mipmap/ic_launcher"
+36-->C:\Users\baral\OneDrive\Desktop\android studio\Chatting App\app\src\main\AndroidManifest.xml:19:9-43
+37        android:label="@string/app_name"
+37-->C:\Users\baral\OneDrive\Desktop\android studio\Chatting App\app\src\main\AndroidManifest.xml:20:9-41
+38        android:roundIcon="@mipmap/ic_launcher_round"
+38-->C:\Users\baral\OneDrive\Desktop\android studio\Chatting App\app\src\main\AndroidManifest.xml:21:9-54
+39        android:supportsRtl="true"
+39-->C:\Users\baral\OneDrive\Desktop\android studio\Chatting App\app\src\main\AndroidManifest.xml:22:9-35
+40        android:testOnly="true"
+41        android:theme="@style/Theme.ChattingApp" >
+41-->C:\Users\baral\OneDrive\Desktop\android studio\Chatting App\app\src\main\AndroidManifest.xml:23:9-49
+42        <activity
+42-->C:\Users\baral\OneDrive\Desktop\android studio\Chatting App\app\src\main\AndroidManifest.xml:26:9-34:20
+43            android:name="com.example.chattingapp.LoginActivity"
+43-->C:\Users\baral\OneDrive\Desktop\android studio\Chatting App\app\src\main\AndroidManifest.xml:27:13-42
+44            android:exported="true"
+44-->C:\Users\baral\OneDrive\Desktop\android studio\Chatting App\app\src\main\AndroidManifest.xml:28:13-36
+45            android:windowSoftInputMode="adjustResize" >
+45-->C:\Users\baral\OneDrive\Desktop\android studio\Chatting App\app\src\main\AndroidManifest.xml:29:13-55
+46            <intent-filter>
+46-->C:\Users\baral\OneDrive\Desktop\android studio\Chatting App\app\src\main\AndroidManifest.xml:30:13-33:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->C:\Users\baral\OneDrive\Desktop\android studio\Chatting App\app\src\main\AndroidManifest.xml:31:17-69
+47-->C:\Users\baral\OneDrive\Desktop\android studio\Chatting App\app\src\main\AndroidManifest.xml:31:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->C:\Users\baral\OneDrive\Desktop\android studio\Chatting App\app\src\main\AndroidManifest.xml:32:17-77
+49-->C:\Users\baral\OneDrive\Desktop\android studio\Chatting App\app\src\main\AndroidManifest.xml:32:27-74
+50            </intent-filter>
+51        </activity>
+52        <activity
+52-->C:\Users\baral\OneDrive\Desktop\android studio\Chatting App\app\src\main\AndroidManifest.xml:36:9-39:58
+53            android:name="com.example.chattingapp.MainActivity"
+53-->C:\Users\baral\OneDrive\Desktop\android studio\Chatting App\app\src\main\AndroidManifest.xml:37:13-41
+54            android:exported="false"
+54-->C:\Users\baral\OneDrive\Desktop\android studio\Chatting App\app\src\main\AndroidManifest.xml:38:13-37
+55            android:windowSoftInputMode="adjustResize" />
+55-->C:\Users\baral\OneDrive\Desktop\android studio\Chatting App\app\src\main\AndroidManifest.xml:39:13-55
+56
+57        <provider
+57-->[io.github.jan-tennert.supabase:storage-kt-android-debug:2.1.3] C:\Users\baral\.gradle\caches\transforms-4\61daf0a5c55a89c5445b6c8f034c0489\transformed\jetified-storage-kt-debug\AndroidManifest.xml:9:9-17:20
+58            android:name="androidx.startup.InitializationProvider"
+58-->[io.github.jan-tennert.supabase:storage-kt-android-debug:2.1.3] C:\Users\baral\.gradle\caches\transforms-4\61daf0a5c55a89c5445b6c8f034c0489\transformed\jetified-storage-kt-debug\AndroidManifest.xml:10:13-67
+59            android:authorities="com.example.chattingapp.androidx-startup"
+59-->[io.github.jan-tennert.supabase:storage-kt-android-debug:2.1.3] C:\Users\baral\.gradle\caches\transforms-4\61daf0a5c55a89c5445b6c8f034c0489\transformed\jetified-storage-kt-debug\AndroidManifest.xml:11:13-68
+60            android:exported="false" >
+60-->[io.github.jan-tennert.supabase:storage-kt-android-debug:2.1.3] C:\Users\baral\.gradle\caches\transforms-4\61daf0a5c55a89c5445b6c8f034c0489\transformed\jetified-storage-kt-debug\AndroidManifest.xml:12:13-37
+61            <meta-data
+61-->[io.github.jan-tennert.supabase:storage-kt-android-debug:2.1.3] C:\Users\baral\.gradle\caches\transforms-4\61daf0a5c55a89c5445b6c8f034c0489\transformed\jetified-storage-kt-debug\AndroidManifest.xml:14:13-16:52
+62                android:name="io.github.jan.supabase.storage.SupabaseInitializer"
+62-->[io.github.jan-tennert.supabase:storage-kt-android-debug:2.1.3] C:\Users\baral\.gradle\caches\transforms-4\61daf0a5c55a89c5445b6c8f034c0489\transformed\jetified-storage-kt-debug\AndroidManifest.xml:15:17-82
+63                android:value="androidx.startup" />
+63-->[io.github.jan-tennert.supabase:storage-kt-android-debug:2.1.3] C:\Users\baral\.gradle\caches\transforms-4\61daf0a5c55a89c5445b6c8f034c0489\transformed\jetified-storage-kt-debug\AndroidManifest.xml:16:17-49
+64            <meta-data
+64-->[io.github.jan-tennert.supabase:gotrue-kt-android-debug:2.1.3] C:\Users\baral\.gradle\caches\transforms-4\b818c7e9d537d7348f8085832e59b359\transformed\jetified-gotrue-kt-debug\AndroidManifest.xml:14:13-16:52
+65                android:name="io.github.jan.supabase.gotrue.SupabaseInitializer"
+65-->[io.github.jan-tennert.supabase:gotrue-kt-android-debug:2.1.3] C:\Users\baral\.gradle\caches\transforms-4\b818c7e9d537d7348f8085832e59b359\transformed\jetified-gotrue-kt-debug\AndroidManifest.xml:15:17-81
+66                android:value="androidx.startup" />
+66-->[io.github.jan-tennert.supabase:gotrue-kt-android-debug:2.1.3] C:\Users\baral\.gradle\caches\transforms-4\b818c7e9d537d7348f8085832e59b359\transformed\jetified-gotrue-kt-debug\AndroidManifest.xml:16:17-49
+67            <meta-data
+67-->[androidx.emoji2:emoji2:1.2.0] C:\Users\baral\.gradle\caches\transforms-4\0a9d04f34fcd3260bb4915da2d07027c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+68                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+68-->[androidx.emoji2:emoji2:1.2.0] C:\Users\baral\.gradle\caches\transforms-4\0a9d04f34fcd3260bb4915da2d07027c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+69                android:value="androidx.startup" />
+69-->[androidx.emoji2:emoji2:1.2.0] C:\Users\baral\.gradle\caches\transforms-4\0a9d04f34fcd3260bb4915da2d07027c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+70            <meta-data
+70-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\baral\.gradle\caches\transforms-4\11e23f5cef9d9b85af4f828b84e0a919\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+71                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+71-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\baral\.gradle\caches\transforms-4\11e23f5cef9d9b85af4f828b84e0a919\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+72                android:value="androidx.startup" />
+72-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\baral\.gradle\caches\transforms-4\11e23f5cef9d9b85af4f828b84e0a919\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+73            <meta-data
+73-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\baral\.gradle\caches\transforms-4\bf89cb88575e0c2326d85581abcce476\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+74                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+74-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\baral\.gradle\caches\transforms-4\bf89cb88575e0c2326d85581abcce476\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+75                android:value="androidx.startup" />
+75-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\baral\.gradle\caches\transforms-4\bf89cb88575e0c2326d85581abcce476\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+76            <meta-data
+76-->[com.russhwolf:multiplatform-settings-no-arg-android-debug:1.1.1] C:\Users\baral\.gradle\caches\transforms-4\3166a0830610268b6da5de7afe33c891\transformed\jetified-multiplatform-settings-no-arg-debug\AndroidManifest.xml:29:13-31:52
+77                android:name="com.russhwolf.settings.SettingsInitializer"
+77-->[com.russhwolf:multiplatform-settings-no-arg-android-debug:1.1.1] C:\Users\baral\.gradle\caches\transforms-4\3166a0830610268b6da5de7afe33c891\transformed\jetified-multiplatform-settings-no-arg-debug\AndroidManifest.xml:30:17-74
+78                android:value="androidx.startup" />
+78-->[com.russhwolf:multiplatform-settings-no-arg-android-debug:1.1.1] C:\Users\baral\.gradle\caches\transforms-4\3166a0830610268b6da5de7afe33c891\transformed\jetified-multiplatform-settings-no-arg-debug\AndroidManifest.xml:31:17-49
+79        </provider>
+80
+81        <uses-library
+81-->[androidx.window:window:1.0.0] C:\Users\baral\.gradle\caches\transforms-4\c23fe06515e0f698cfc1304a07be18ab\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+82            android:name="androidx.window.extensions"
+82-->[androidx.window:window:1.0.0] C:\Users\baral\.gradle\caches\transforms-4\c23fe06515e0f698cfc1304a07be18ab\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+83            android:required="false" />
+83-->[androidx.window:window:1.0.0] C:\Users\baral\.gradle\caches\transforms-4\c23fe06515e0f698cfc1304a07be18ab\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+84        <uses-library
+84-->[androidx.window:window:1.0.0] C:\Users\baral\.gradle\caches\transforms-4\c23fe06515e0f698cfc1304a07be18ab\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+85            android:name="androidx.window.sidecar"
+85-->[androidx.window:window:1.0.0] C:\Users\baral\.gradle\caches\transforms-4\c23fe06515e0f698cfc1304a07be18ab\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+86            android:required="false" />
+86-->[androidx.window:window:1.0.0] C:\Users\baral\.gradle\caches\transforms-4\c23fe06515e0f698cfc1304a07be18ab\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+87
+88        <receiver
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\baral\.gradle\caches\transforms-4\bf89cb88575e0c2326d85581abcce476\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+89            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\baral\.gradle\caches\transforms-4\bf89cb88575e0c2326d85581abcce476\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+90            android:directBootAware="false"
+90-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\baral\.gradle\caches\transforms-4\bf89cb88575e0c2326d85581abcce476\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+91            android:enabled="true"
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\baral\.gradle\caches\transforms-4\bf89cb88575e0c2326d85581abcce476\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+92            android:exported="true"
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\baral\.gradle\caches\transforms-4\bf89cb88575e0c2326d85581abcce476\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+93            android:permission="android.permission.DUMP" >
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\baral\.gradle\caches\transforms-4\bf89cb88575e0c2326d85581abcce476\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+94            <intent-filter>
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\baral\.gradle\caches\transforms-4\bf89cb88575e0c2326d85581abcce476\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+95                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\baral\.gradle\caches\transforms-4\bf89cb88575e0c2326d85581abcce476\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\baral\.gradle\caches\transforms-4\bf89cb88575e0c2326d85581abcce476\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+96            </intent-filter>
+97            <intent-filter>
+97-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\baral\.gradle\caches\transforms-4\bf89cb88575e0c2326d85581abcce476\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+98                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\baral\.gradle\caches\transforms-4\bf89cb88575e0c2326d85581abcce476\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\baral\.gradle\caches\transforms-4\bf89cb88575e0c2326d85581abcce476\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+99            </intent-filter>
+100            <intent-filter>
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\baral\.gradle\caches\transforms-4\bf89cb88575e0c2326d85581abcce476\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+101                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\baral\.gradle\caches\transforms-4\bf89cb88575e0c2326d85581abcce476\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\baral\.gradle\caches\transforms-4\bf89cb88575e0c2326d85581abcce476\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+102            </intent-filter>
+103            <intent-filter>
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\baral\.gradle\caches\transforms-4\bf89cb88575e0c2326d85581abcce476\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+104                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\baral\.gradle\caches\transforms-4\bf89cb88575e0c2326d85581abcce476\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\baral\.gradle\caches\transforms-4\bf89cb88575e0c2326d85581abcce476\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+105            </intent-filter>
+106        </receiver>
+107    </application>
+108
+109</manifest>
