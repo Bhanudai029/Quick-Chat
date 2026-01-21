@@ -37,7 +37,7 @@
         android:maxWidth="260dp"
         android:padding="10dp"
         android:text="Messages..."
-        android:textColor="#000000"
+        android:textColor="@color/message_received_text"
         android:textSize="15sp"
         app:layout_constraintStart_toEndOf="@id/img_sender_avatar"
         app:layout_constraintTop_toBottomOf="@id/text_sender_name" />
@@ -69,7 +69,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:tint="#000000" />
+            app:tint="@color/message_audio_controls" />
 
         <SeekBar
             android:id="@+id/audio_seekbar"
@@ -78,8 +78,8 @@
             android:layout_marginStart="8dp"
             android:max="100"
             android:progress="0"
-            android:progressTint="#000000"
-            android:thumbTint="#000000"
+            android:progressTint="@color/message_audio_controls"
+            android:thumbTint="@color/message_audio_controls"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@id/btn_play_audio"
@@ -90,7 +90,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="00:00"
-            android:textColor="#000000"
+            android:textColor="@color/message_audio_controls"
             android:textSize="10sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />

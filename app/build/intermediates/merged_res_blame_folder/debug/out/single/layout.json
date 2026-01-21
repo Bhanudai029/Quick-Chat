@@ -1,5 +1,9 @@
 [
     {
+        "merged": "com.example.chattingapp-mergeDebugResources-44:/layout/item_message_received.xml",
+        "source": "com.example.chattingapp-main-47:/layout/item_message_received.xml"
+    },
+    {
         "merged": "C:\\Users\\baral\\.gradle\\daemon\\8.6\\com.example.chattingapp-mergeDebugResources-44:\\layout\\activity_login.xml",
         "source": "C:\\Users\\baral\\.gradle\\daemon\\8.6\\com.example.chattingapp-main-47:\\layout\\activity_login.xml"
     },
@@ -18,10 +22,6 @@
     {
         "merged": "C:\\Users\\baral\\.gradle\\daemon\\8.6\\com.example.chattingapp-mergeDebugResources-44:\\layout\\item_message_sent.xml",
         "source": "C:\\Users\\baral\\.gradle\\daemon\\8.6\\com.example.chattingapp-main-47:\\layout\\item_message_sent.xml"
-    },
-    {
-        "merged": "com.example.chattingapp-mergeDebugResources-44:/layout/fragment_profile.xml",
-        "source": "com.example.chattingapp-main-47:/layout/fragment_profile.xml"
     },
     {
         "merged": "C:\\Users\\baral\\.gradle\\daemon\\8.6\\com.example.chattingapp-mergeDebugResources-44:\\layout\\fragment_profile.xml",

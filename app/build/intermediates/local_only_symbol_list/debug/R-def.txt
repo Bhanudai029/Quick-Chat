@@ -7,6 +7,9 @@ color icon_tint
 color input_background
 color input_hint_color
 color input_text_color
+color message_audio_controls
+color message_received_bg
+color message_received_text
 color purple_200
 color purple_500
 color purple_700

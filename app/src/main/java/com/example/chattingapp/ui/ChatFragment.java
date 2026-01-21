@@ -101,6 +101,16 @@ public class ChatFragment extends Fragment implements ChatRepository.ChatCallbac
 
         return root;
     }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        // Refresh username in case it was changed in Profile
+        String updatedName = userManager.getUserName();
+        if (updatedName != null && !updatedName.isEmpty()) {
+            currentUserName = updatedName;
+        }
+    }
     
     private void setupRecyclerView() {
         adapter = new ChatAdapter();

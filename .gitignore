@@ -19,3 +19,5 @@ app/google-services.json
 key.properties
 *.keystore
 *.jks
+.env
+*.hprof
