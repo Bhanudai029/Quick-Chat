@@ -1,4 +1,4 @@
-App Creation: 3
+# App Creation: 3
 ## Quick Chat - Android Application
 
 A simple Android application that allows users to chat with text, images, and audio in real-time.
